@@ -1,24 +1,18 @@
-import { useState } from 'react'
+import Header from "./Components/Header"
+import "./App.css";
+import Body from "./Components/Body";
 
 function App() {
 
   return (
     <div className="book">
-      
-      <div className="page">
-        1/4
-      </div>
-      
-      <div className="page">
-        2/4
-      </div>
-      
-      <div className="page">
-        3/4
-      </div>
-
-      <div className="page">
-        4/4
+      <div className="page cover">
+        <div className="header_cover">
+          <Header />
+        </div>
+        <div className="body_cover">
+          <Body />
+        </div>
       </div>
     </div>
   )

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
   margin:0;
+  font-family: 'Poppins', sans-serif;
 }
 
 *{
@@ -17,7 +20,6 @@ body{
   height:297mm;
   page-break-after: always;
   background: white;
-
   /** Disable to Test if size is perfect*/
   /* box-shadow: inset 0px 0px 0px 3px red; */ 
 }

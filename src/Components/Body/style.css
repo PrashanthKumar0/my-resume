@@ -1,0 +1,24 @@
+.body {
+    margin-top: 60px;
+    grid-gap: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.body div {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.body div:nth-child(1) {
+    height: 100%;
+    background: red;
+    grid-column: span 1;
+}
+
+.body div:nth-child(2) {
+    height: 100%;
+    background: blue;
+    grid-column: span 2;
+}
