@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 
-import data from "../../data.json";
+import data from "../../data";
 import profilePic from "../../assets/profile.jpg";
 
 function Header() {

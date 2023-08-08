@@ -5,20 +5,20 @@
     grid-template-columns: auto auto auto;
 }
 
-.body div {
+.body > div {
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
 
-.body div:nth-child(1) {
+.body > div:nth-child(1) {
     height: 100%;
-    background: red;
+    /* background: red; */
     grid-column: span 1;
 }
 
-.body div:nth-child(2) {
+.body > div:nth-child(2) {
     height: 100%;
-    background: blue;
+    /* background: blue; */
     grid-column: span 2;
 }

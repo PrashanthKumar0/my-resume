@@ -1,0 +1,31 @@
+.heading {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.6rem;
+    position: relative;
+    color: var(--dark-bg);
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: var(--dark-bg);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading::before {
+    content: "";
+    position: absolute;
+    bottom: -25.5px;
+    transform: translateY(-50%);
+    display: block;
+    height: 7px;
+    width: 80px;
+    background: var(--light-blue);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

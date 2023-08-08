@@ -1,3 +1,7 @@
+:root{
+    --dark-bg:#1d2533;
+    --light-blue:#5298be;    
+}
 .page{
     padding: 50px 20px;
     padding-bottom: 0px;

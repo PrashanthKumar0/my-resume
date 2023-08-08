@@ -1,5 +1,5 @@
 .header {
-    background: #1d2533;
+    background: var(--dark-bg);
     display: flex;
     flex-direction: row;
     position: relative;
@@ -12,7 +12,7 @@
     overflow: hidden;
     width: 150px;
     height: 150px;
-    border: 8px solid #1d2533;
+    border: 8px solid var(--dark-bg);
     margin-left: 50px;
     position: absolute;
     top: 50%;
@@ -43,5 +43,5 @@ img {
     font-size: 2rem;
     margin-top: -20px;
     margin-bottom: 20px;
-    color: #5298be;
+    color: var(--light-blue);
 }
