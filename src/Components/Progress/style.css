@@ -1,0 +1,17 @@
+.progress {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background: #DFDFDF;
+    position: relative;
+}
+
+.progress > .progress_amount {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: var(--light-blue);
+}

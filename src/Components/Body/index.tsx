@@ -2,6 +2,7 @@ import React from 'react'
 import "./style.css";
 import About from './About';
 import Contact from './Contact';
+import Skills from './Skills';
 
 
 
@@ -11,10 +12,10 @@ function Body() {
 
 
       {/* left column */}
-      <div>        
+      <div>
         <About />
         <Contact />
-
+        <Skills/>
       </div>
 
 

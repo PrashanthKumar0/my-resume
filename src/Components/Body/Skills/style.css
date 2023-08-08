@@ -1,0 +1,9 @@
+.SkillCard {
+    margin-top: 10px;
+}
+
+.skill_cover {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 12px 0px;
+}

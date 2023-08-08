@@ -8,7 +8,7 @@
 .body > div {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 35px;
 }
 
 .body > div:nth-child(1) {
