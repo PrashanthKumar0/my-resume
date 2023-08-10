@@ -65,6 +65,15 @@ const data = {
             "desc": "__Lorem__ **ipsum dolor** sit amet,\n **consectetur adipisicing elit**. Odio quas nostrum iure, beatae aut amet deleniti. Aspernatur nostrum in quam."
         },
     ],
+    "education":[
+        {
+            "institute": "Sololearn.inc",
+            "course": "Graphics Designer",
+            "from": "May 2023",
+            "to": "June 3045",
+            "desc": "__Lorem__ **ipsum dolor** sit amet,\n **consectetur adipisicing elit**. Odio quas nostrum iure, beatae aut amet deleniti. Aspernatur nostrum in quam."
+        },
+    ]
 
 };
 

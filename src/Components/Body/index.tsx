@@ -4,6 +4,7 @@ import About from './About';
 import Contact from './Contact';
 import Skills from './Skills';
 import Experiences from './Experiences';
+import Education from './Education';
 
 
 
@@ -23,7 +24,7 @@ function Body() {
       {/* right column */}
       <div>
         <Experiences />
-
+        <Education />
       </div>
     </div>
   )
