@@ -13,19 +13,19 @@
     height: 3px;
     width: 100%;
     background: var(--dark-bg);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .heading::before {
     content: "";
     position: absolute;
-    bottom: -25.5px;
+    bottom: -15.5px;
     transform: translateY(-50%);
     display: block;
     height: 7px;
     width: 80px;
     background: var(--light-blue);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

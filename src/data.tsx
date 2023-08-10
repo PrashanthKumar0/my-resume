@@ -3,11 +3,11 @@ import ContactLink from "./Components/ContactLink";
 const data = {
     "name": "Prashanth Kumar",
     "role": "Student",
-    "aboutMe": "- A passionate Btech student, driven by a genuine curiosity to understand core concepts behind creations.\n- Skilled in **full-stack web development** with a focus on **React & Next.js**.\n- Intrigued by **graphics programming**, **game development**, and embracing **low-level systems**.\n- Eager contributor to **open-source initiatives**.",
+    "aboutMe": "- A diligent Btech student, fueled by an unwavering curiosity to decipher the underlying intricacies of innovation.\n- Proficient in **full-stack web development**, with an emphasis on **React & Next.js**.\n- Enthralled by the domain of **graphics programming**, **game development**, and adeptness in **low-level systems**.\n- Committed participant in the world of **open-source initiatives**.",
     "contacts": {
-        "address": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, non!",
+        "address": "Discovering beauty in every corner of exploration.",
         "github": (
-            <ContactLink iconName={"fa-brands fa-github"} link={"https://github.com/prashanthKumar0"} display={"https://github.com/prashanthKumar0"} />
+            <ContactLink iconName={"fa-brands fa-github"} link={"https://github.com/prashanthKumar0"} display={"GitHub"} />
         ),
         "phone": (
             <ContactLink iconName={"fa fa-phone"} link={"tel:+91xxxxxxxxxx"} display={"+91 xxxxxxxxxx"} />
@@ -17,8 +17,7 @@ const data = {
         ),
     },
     "skills": {
-        //  score out of 5
-        "Web Dev(Frontend)": 5,
+        "Web Dev (Frontend)": 5,
         "PHP": 3,
         "NodeJs": 4,
         "ReactJs": 3,
@@ -36,23 +35,23 @@ const data = {
             "from": "May 2023",
             "to": "June 2024",
             "desc":
-                "- **Frontend** development and maintenance for [himalayangoatmeat.com](https://himalayangoatmeat.com) (**Uttarakhand Govt.**) during my first year of college.\n" +
-                "- Expertly harnessed **React**, **Tailwind**, and **Next.js** for a seamless user journey.\n" +
-                "- Collaborated for cohesive frontend-backend **React** integration.\n" +
-                "- Enforced responsive design, optimizing performance across devices for Uttarakhand residents."
+                "- Spearheaded **frontend** development and maintenance for [himalayangoatmeat.com](https://himalayangoatmeat.com), a touchstone of Uttarakhand's identity.\n" +
+                "- Adeptly harnessed **React**, **Tailwind**, and **Next.js** for an impeccable user experience.\n" +
+                "- Orchestrated seamless frontend-backend **React** integration for holistic functionality.\n" +
+                "- Ensured responsive design to accommodate Uttarakhand's diverse audience across devices."
 
         },
-      ],
+    ],
     "education": [
         {
-            "institute": "Sololearn.inc",
-            "course": "Graphics Designer",
-            "from": "May 2023",
-            "to": "June 3045",
-            "desc": "__Lorem__ **ipsum dolor** sit amet,\n **consectetur adipisicing elit**. Odio quas nostrum iure, beatae aut amet deleniti. Aspernatur nostrum in quam."
+            "institute": "School Of Engineering - JNU",
+            "course": "B.Tech + M.Tech (Dual) Computer Science Engineering",
+            "from": "October 2022",
+            "to": "Present",
+            "desc": "Pursuing academic excellence at JNU School of Engineering, a bastion of learning within the esteemed Jawaharlal Nehru University in New Delhi. Where scholarly pursuits harmonize with a mosaic of cultural diversity."
         },
     ]
-
 };
+
 
 export default data;
