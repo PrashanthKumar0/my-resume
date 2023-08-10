@@ -8,7 +8,7 @@ import Heading from '../../Heading/Heading';
 function Experiences() {
     return (
         <div>
-            <Heading text={"Experiences & Projects"} />
+            <Heading text={"Experiences"} />
             <div className="experience_cards">
                 {data.experiences.map((experience, key) => (
                     <ExperienceCard key={key} {...experience} />

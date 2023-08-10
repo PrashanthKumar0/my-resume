@@ -28,7 +28,6 @@ body{
 @media screen {
   /** will be applied only on screen i.e not while printing  */
   .page{
-    box-sizing: content-box;
     margin:50px auto;
     box-shadow: 0px 0px 15px black;
   }

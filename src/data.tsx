@@ -3,6 +3,7 @@ import ContactLink from "./Components/ContactLink";
 const data = {
     "name": "Prashanth Kumar",
     "role": "Student",
+    "aboutMe": "- A passionate Btech student, driven by a genuine curiosity to understand core concepts behind creations.\n- Skilled in **full-stack web development** with a focus on **React & Next.js**.\n- Intrigued by **graphics programming**, **game development**, and embracing **low-level systems**.\n- Eager contributor to **open-source initiatives**.",
     "contacts": {
         "address": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, non!",
         "github": (
@@ -30,42 +31,19 @@ const data = {
     },
     "experiences": [
         {
-            "company": "Sololearn.inc",
-            "post": "Graphics Designer",
+            "company": "Bakraw - himalayangoatmeat",
+            "post": "Frontend React Dev",
             "from": "May 2023",
-            "to": "June 3045",
-            "desc": "__Lorem__ **ipsum dolor** sit amet,\n **consectetur adipisicing elit**. Odio quas nostrum iure, beatae aut amet deleniti. Aspernatur nostrum in quam."
+            "to": "June 2024",
+            "desc":
+                "- **Frontend** development and maintenance for [himalayangoatmeat.com](https://himalayangoatmeat.com) (**Uttarakhand Govt.**) during my first year of college.\n" +
+                "- Expertly harnessed **React**, **Tailwind**, and **Next.js** for a seamless user journey.\n" +
+                "- Collaborated for cohesive frontend-backend **React** integration.\n" +
+                "- Enforced responsive design, optimizing performance across devices for Uttarakhand residents."
+
         },
-        {
-            "company": "Sololearn.inc",
-            "post": "Graphics Designer",
-            "from": "May 2023",
-            "to": "June 3045",
-            "desc": "__Lorem__ **ipsum dolor** sit amet,\n **consectetur adipisicing elit**. Odio quas nostrum iure, beatae aut amet deleniti. Aspernatur nostrum in quam."
-        },
-        {
-            "company": "Sololearn.inc",
-            "post": "Graphics Designer",
-            "from": "May 2023",
-            "to": "June 3045",
-            "desc": "__Lorem__ **ipsum dolor** sit amet,\n **consectetur adipisicing elit**. Odio quas nostrum iure, beatae aut amet deleniti. Aspernatur nostrum in quam."
-        },
-        {
-            "company": "Sololearn.inc",
-            "post": "Graphics Designer",
-            "from": "May 2023",
-            "to": "June 3045",
-            "desc": "__Lorem__ **ipsum dolor** sit amet,\n **consectetur adipisicing elit**. Odio quas nostrum iure, beatae aut amet deleniti. Aspernatur nostrum in quam."
-        },
-        {
-            "company": "Sololearn.inc",
-            "post": "Graphics Designer",
-            "from": "May 2023",
-            "to": "June 3045",
-            "desc": "__Lorem__ **ipsum dolor** sit amet,\n **consectetur adipisicing elit**. Odio quas nostrum iure, beatae aut amet deleniti. Aspernatur nostrum in quam."
-        },
-    ],
-    "education":[
+      ],
+    "education": [
         {
             "institute": "Sololearn.inc",
             "course": "Graphics Designer",

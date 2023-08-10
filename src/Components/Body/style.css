@@ -1,5 +1,5 @@
 .body {
-    margin-top: 60px;
+    margin-top: 30px;
     grid-gap: 60px;
     display: grid;
     grid-template-columns: 33.33% auto auto;
@@ -10,7 +10,7 @@
 .body>div {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 20px;
 }
 
 .body>div:nth-child(1) {
