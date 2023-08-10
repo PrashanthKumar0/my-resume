@@ -7,7 +7,7 @@ const data = {
     "contacts": {
         "address": "Discovering beauty in every corner of exploration.",
         "github": (
-            <ContactLink iconName={"fa-brands fa-github"} link={"https://github.com/prashanthKumar0"} display={"GitHub"} />
+            <ContactLink iconName={"fa-brands fa-github"} link={"https://github.com/prashanthKumar0"} display={"/ PrashanthKumar0"} />
         ),
         "phone": (
             <ContactLink iconName={"fa fa-phone"} link={"tel:+91xxxxxxxxxx"} display={"+91 xxxxxxxxxx"} />
@@ -50,7 +50,15 @@ const data = {
             "to": "Present",
             "desc": "Pursuing academic excellence at JNU School of Engineering, a bastion of learning within the esteemed Jawaharlal Nehru University in New Delhi. Where scholarly pursuits harmonize with a mosaic of cultural diversity."
         },
-    ]
+    ],
+    "projects":[
+        {repo:"https://github.com/PrashanthKumar0/jnu-notifications-bot"},
+        {repo:"https://github.com/PrashanthKumar0/chip8-emulator"},
+        {repo:"https://github.com/PrashanthKumar0/PhiSicks2D.js"},
+        {repo:"https://github.com/PrashanthKumar0/kitten-cannon-remake"},
+        {repo:"https://github.com/PrashanthKumar0/Center-Or-Death-2"},
+        {repo:"https://github.com/PrashanthKumar0/Indo-music-player"},
+    ],
 };
 
 

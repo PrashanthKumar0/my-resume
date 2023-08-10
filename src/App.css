@@ -2,7 +2,10 @@
     --dark-bg:#1d2533;
     --light-blue:#5298be;    
 }
-.page{
+.cover{
+    position: relative;
+}
+.contents{
     padding: 35px 35px;
     padding-bottom: 0px;
 }
