@@ -9,14 +9,19 @@ function App() {
     <div className="book">
       <div className="page cover">
         <div className="contents">
+
           <div className="header_cover">
             <Header />
           </div>
+
           <div className="body_cover">
             <Body />
           </div>
+
         </div>
+
         <Footer />
+
       </div>
     </div>
   )
