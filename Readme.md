@@ -5,7 +5,7 @@ Welcome to the React Enhanced Resume project! This resume is built using the pow
 ## Preview 📄
 > Feel free to take this resume with no credits. If you find this project helpful, consider giving it a star! 😊
 
-![Resume Preview](./demo.jpg)
+![Resume Preview](./readme-assets/demo.jpg)
 
 ## Customization Guide 🛠️
 
