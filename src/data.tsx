@@ -3,9 +3,14 @@ import ContactLink from "./Components/ContactLink";
 const data = {
     "name": "Prashanth Kumar",
     "role": "Student",
-    "aboutMe": "- A diligent Btech student, fueled by an unwavering curiosity to decipher the underlying intricacies of innovation.\n- Proficient in **full-stack web development**, with an emphasis on **React & Next.js**.\n- Enthralled by the domain of **graphics programming**, **game development**, and adeptness in **low-level systems**.\n- Committed participant in the world of **open-source initiatives**.",
+    "aboutMe":
+        "- A diligent Btech student, fueled by an unwavering curiosity to decipher the underlying intricacies of innovation.\n" +
+        "- Proficient in **full-stack web development**, with an emphasis on **React & Next.js**.\n" +
+        "- Enthralled by the domain of **graphics programming**, **game development**, and adeptness in **low-level systems**.\n" +
+        "- Knows **English** , **Hindi** & **Tamil**.",
+
     "contacts": {
-        "address": "Discovering beauty in every corner of exploration.",
+        "address": "JNU , New Delhi - 110067.",
         "github": (
             <ContactLink iconName={"fa-brands fa-github"} link={"https://github.com/prashanthKumar0"} display={"/ PrashanthKumar0"} />
         ),
@@ -16,6 +21,7 @@ const data = {
             <ContactLink iconName={"fa-solid fa-envelope"} link={"mailto:giri00421@gmail.com"} display={"xxx@yy.com"} />
         ),
     },
+
     "skills": {
         "Web Dev (Frontend)": 5,
         "PHP": 3,
@@ -28,20 +34,22 @@ const data = {
         "C++ & STL": 4,
         "OpenGL": 3,
     },
+
     "experiences": [
         {
-            "company": "Bakraw - himalayangoatmeat",
+            "company": "Bakraw - Himalayan Goat Meat",
             "post": "Frontend React Dev",
             "from": "May 2023",
             "to": "June 2024",
             "desc":
-                "- Single-handedly crafted the frontend from inception for himalayangoatmeat.com, an initiative supported by the Uttarakhand Government.\n" +
+                "- Single-handedly crafted the frontend from inception for [himalayangoatmeat.com](https://himalayangoatmeat.com/products), an initiative supported by the Uttarakhand Government.\n" +
                 "- Adeptly harnessed **React**, **Tailwind**, and **Next.js** for an impeccable user experience.\n" +
                 "- Orchestrated seamless frontend-backend **React** integration for holistic functionality.\n" +
                 "- Ensured responsive design to accommodate Uttarakhand's diverse audience across devices."
 
         },
     ],
+
     "education": [
         {
             "institute": "School Of Engineering - JNU",
@@ -51,6 +59,7 @@ const data = {
             "desc": "Pursuing academic excellence at JNU School of Engineering, a bastion of learning within the esteemed Jawaharlal Nehru University in New Delhi. Where scholarly pursuits harmonize with a mosaic of cultural diversity."
         },
     ],
+
     "projects": [
         {
             repo: "https://github.com/PrashanthKumar0/jnu-notifications-bot",

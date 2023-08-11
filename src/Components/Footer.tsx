@@ -6,7 +6,7 @@ function Footer() {
             textAlign: 'center',
             background: "var(--dark-bg)", 
             width: "100%",
-            padding: "0px", 
+            padding: "3px", 
             color: "white", 
             position:'absolute',
             bottom:"0px",
