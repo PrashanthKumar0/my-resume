@@ -5,7 +5,8 @@
     gap: 20px;
 }
 
-.contacts a {
+/* .contacts  */
+a {
     color: var(--light-blue);
     text-decoration: none;
 }

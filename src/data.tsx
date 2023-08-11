@@ -35,7 +35,7 @@ const data = {
             "from": "May 2023",
             "to": "June 2024",
             "desc":
-                "- Spearheaded **frontend** development and maintenance for [himalayangoatmeat.com](https://himalayangoatmeat.com), a touchstone of Uttarakhand's identity.\n" +
+                "- Single-handedly crafted the frontend from inception for himalayangoatmeat.com, an initiative supported by the Uttarakhand Government.\n" +
                 "- Adeptly harnessed **React**, **Tailwind**, and **Next.js** for an impeccable user experience.\n" +
                 "- Orchestrated seamless frontend-backend **React** integration for holistic functionality.\n" +
                 "- Ensured responsive design to accommodate Uttarakhand's diverse audience across devices."
@@ -51,13 +51,30 @@ const data = {
             "desc": "Pursuing academic excellence at JNU School of Engineering, a bastion of learning within the esteemed Jawaharlal Nehru University in New Delhi. Where scholarly pursuits harmonize with a mosaic of cultural diversity."
         },
     ],
-    "projects":[
-        {repo:"https://github.com/PrashanthKumar0/jnu-notifications-bot"},
-        {repo:"https://github.com/PrashanthKumar0/chip8-emulator"},
-        {repo:"https://github.com/PrashanthKumar0/PhiSicks2D.js"},
-        {repo:"https://github.com/PrashanthKumar0/kitten-cannon-remake"},
-        {repo:"https://github.com/PrashanthKumar0/Center-Or-Death-2"},
-        {repo:"https://github.com/PrashanthKumar0/Indo-music-player"},
+    "projects": [
+        {
+            repo: "https://github.com/PrashanthKumar0/jnu-notifications-bot",
+            desc: [
+                "Developed a JavaScript Telegram bot on Cloudflare Workers.",
+                "Automates checking JNU website updates, sends to a channel.",
+                "Active 200+ members subscribed, addressing student frustrations.",
+            ]
+        },
+        {
+            repo: "https://github.com/PrashanthKumar0/PhiSicks2D.js",
+            desc: [
+                "A simple 2D physics engine in JavaScript for fun.",
+                "Supports block movement, shapes spawning, and simulation control.",
+                "Implements collision detection using SAT technique.",
+                "A learning experience, demonstrating determination and growth.",
+            ]
+        },
+        {
+            repo: "https://github.com/PrashanthKumar0/chip8-emulator",
+            desc: [
+                "Created a JavaScript emulator for CHIP-8 system, offering retro gaming experiences.",
+            ]
+        },
     ],
 };
 
