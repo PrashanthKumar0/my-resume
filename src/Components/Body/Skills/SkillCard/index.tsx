@@ -5,8 +5,8 @@ import "./style.css";
 import Progress from '../../../Progress';
 
 interface ISkill {
-    name: String;
-    experienceLevel: Number;
+    name: string;
+    experienceLevel: number;
 }
 
 

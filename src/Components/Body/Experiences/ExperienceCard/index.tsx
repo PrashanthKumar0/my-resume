@@ -5,11 +5,11 @@ import "./style.css";
 
 
 interface IExperienceCard {
-    company: String;
-    desc: String;
-    from: String;
-    to: String;
-    post: String;
+    company: string;
+    desc: string;
+    from: string;
+    to: string;
+    post: string;
 };
 
 function ExperienceCard({ company, desc, from, to, post }: IExperienceCard) {
